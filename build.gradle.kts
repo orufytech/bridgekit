@@ -12,6 +12,6 @@ buildscript {
 // JitPack serves artifacts as com.github.<user>.<repo>:<module>:<tag> and sets VERSION to the tag.
 // Matching that here keeps the POMs (and the BOM's constraints) consistent with what consumers request.
 subprojects {
-    group = "com.github.gaurishankar-orufy.bridgekit"
+    group = "com.github.orufytech.bridgekit"
     version = System.getenv("VERSION") ?: "0.1.0"
 }

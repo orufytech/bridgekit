@@ -8,19 +8,19 @@ Pluggable Android features that talk through one notification center, so a modul
 | `bridgekit-ui` | `SlotRegistry`, `Slot()`, `Overlays()`, `bridgeRoutes()`, `navigateIfExists()` | features that draw Compose UI, the host |
 | `bridgekit-platform` | BOM, one version for both | the host |
 
-[![](https://jitpack.io/v/gaurishankar-orufy/bridgekit.svg)](https://jitpack.io/#gaurishankar-orufy/bridgekit)
+[![](https://jitpack.io/v/orufytech/bridgekit.svg)](https://jitpack.io/#orufytech/bridgekit)
 
 ## Install
 
-Published through [JitPack](https://jitpack.io/#gaurishankar-orufy/bridgekit); no token needed.
+Published through [JitPack](https://jitpack.io/#orufytech/bridgekit); no token needed.
 
 ```kotlin
 // settings.gradle.kts → dependencyResolutionManagement.repositories
 maven { url = uri("https://jitpack.io") }
 ```
 ```kotlin
-implementation(platform("com.github.gaurishankar-orufy.bridgekit:bridgekit-platform:v0.1.0"))
-implementation("com.github.gaurishankar-orufy.bridgekit:bridgekit-core")   // or bridgekit-ui for UI features
+implementation(platform("com.github.orufytech.bridgekit:bridgekit-platform:v0.1.0"))
+implementation("com.github.orufytech.bridgekit:bridgekit-core")   // or bridgekit-ui for UI features
 ```
 Kotlin packages are `com.bridge.kit.core` and `com.bridge.kit.ui`.
 
